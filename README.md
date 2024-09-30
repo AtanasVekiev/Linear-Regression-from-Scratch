@@ -10,12 +10,12 @@ This project demonstrates three approaches to Linear Regression:
 
 ## Methods
 1. Linear Regression from Scratch with Gradient Descent
-We implement a linear regression model using gradient descent to iteratively optimize the weights (w) and bias (b), minimizing the cost function. This method is helpful to understand the mathematics behind model training.
+We implement a linear regression model using gradient descent to iteratively optimize the weights ```(w)``` and bias ```(b)```, minimizing the cost function. This method is helpful to understand the mathematics behind model training.
 
 Steps:
-Initialization: Randomly initialize w and b.
-Cost Function: Calculate the mean squared error between predictions and actual values.
-Gradient Descent: Update w and b iteratively using the gradient of the cost function until convergence or until the maximum number of iterations is reached.
+* __Initialization__: Randomly initialize ```w``` and ```b```.
+* __Cost Function__: Calculate the mean squared error between predictions and actual values.
+* __Gradient Descent__: Update ```w``` and ```b``` iteratively using the gradient of the cost function until convergence or until the maximum number of iterations is reached.
 
 2. Scikit-learn's LinearRegression (Closed-Form)
 This method solves the normal equation to compute the optimal weights and bias directly. It is computationally efficient for small datasets, as it requires no iterations.
